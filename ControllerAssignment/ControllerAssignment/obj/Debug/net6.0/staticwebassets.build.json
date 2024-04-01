@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "Sl+IxF81uxhEfmt9F61fWTKcVkKF6S1WEaH1gKihVkA=",
+  "Source": "ControllerAssignment",
+  "BasePath": "_content/ControllerAssignment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControllerAssignment\\wwwroot",
+      "Source": "ControllerAssignment",
+      "ContentRoot": "D:\\UDEMY\\Asp.Net Core 7\\ControllerAssignment\\ControllerAssignment\\wwwroot\\",
+      "BasePath": "_content/ControllerAssignment",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\UDEMY\\Asp.Net Core 7\\ControllerAssignment\\ControllerAssignment\\wwwroot\\sample.pdf",
+      "SourceId": "ControllerAssignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UDEMY\\Asp.Net Core 7\\ControllerAssignment\\ControllerAssignment\\wwwroot\\",
+      "BasePath": "_content/ControllerAssignment",
+      "RelativePath": "sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.pdf"
+    },
+    {
+      "Identity": "D:\\UDEMY\\Asp.Net Core 7\\ControllerAssignment\\ControllerAssignment\\wwwroot\\sample.png",
+      "SourceId": "ControllerAssignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UDEMY\\Asp.Net Core 7\\ControllerAssignment\\ControllerAssignment\\wwwroot\\",
+      "BasePath": "_content/ControllerAssignment",
+      "RelativePath": "sample.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.png"
+    },
+    {
+      "Identity": "D:\\UDEMY\\Asp.Net Core 7\\ControllerAssignment\\ControllerAssignment\\wwwroot\\sample.txt",
+      "SourceId": "ControllerAssignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UDEMY\\Asp.Net Core 7\\ControllerAssignment\\ControllerAssignment\\wwwroot\\",
+      "BasePath": "_content/ControllerAssignment",
+      "RelativePath": "sample.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.txt"
+    }
+  ]
+}

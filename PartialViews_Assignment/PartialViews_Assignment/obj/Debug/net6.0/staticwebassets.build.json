@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "vFbanN72lrsEfO2trk1LXf5GuZGFFe+EgohWHK/7oVo=",
+  "Source": "PartialViews_Assignment",
+  "BasePath": "_content/PartialViews_Assignment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PartialViews_Assignment\\wwwroot",
+      "Source": "PartialViews_Assignment",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\PartialViews_Assignment\\PartialViews_Assignment\\wwwroot\\",
+      "BasePath": "_content/PartialViews_Assignment",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\PartialViews_Assignment\\PartialViews_Assignment\\wwwroot\\StyleSheet.css",
+      "SourceId": "PartialViews_Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\PartialViews_Assignment\\PartialViews_Assignment\\wwwroot\\",
+      "BasePath": "_content/PartialViews_Assignment",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

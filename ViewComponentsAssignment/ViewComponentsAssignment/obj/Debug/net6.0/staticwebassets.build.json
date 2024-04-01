@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "9BHcPVIvVK6mKbHLMoTy+EI8cpXX1/8appks19iq9ds=",
+  "Source": "ViewComponentsAssignment",
+  "BasePath": "_content/ViewComponentsAssignment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewComponentsAssignment\\wwwroot",
+      "Source": "ViewComponentsAssignment",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\ViewComponentsAssignment\\ViewComponentsAssignment\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsAssignment",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\ViewComponentsAssignment\\ViewComponentsAssignment\\wwwroot\\StyleSheet.css",
+      "SourceId": "ViewComponentsAssignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\ViewComponentsAssignment\\ViewComponentsAssignment\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsAssignment",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

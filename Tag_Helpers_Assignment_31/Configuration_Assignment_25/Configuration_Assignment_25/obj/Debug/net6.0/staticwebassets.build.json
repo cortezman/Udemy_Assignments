@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "zcXCccrS9kSnp6XNmJd9M4psXWdDjE+wATEm1kUtqds=",
+  "Source": "Configuration_Assignment_25",
+  "BasePath": "_content/Configuration_Assignment_25",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Configuration_Assignment_25\\wwwroot",
+      "Source": "Configuration_Assignment_25",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\Tag_Helpers_Assignment_31\\Configuration_Assignment_25\\Configuration_Assignment_25\\wwwroot\\",
+      "BasePath": "_content/Configuration_Assignment_25",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\Tag_Helpers_Assignment_31\\Configuration_Assignment_25\\Configuration_Assignment_25\\wwwroot\\Scripts\\FinnHub.js",
+      "SourceId": "Configuration_Assignment_25",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\Tag_Helpers_Assignment_31\\Configuration_Assignment_25\\Configuration_Assignment_25\\wwwroot\\",
+      "BasePath": "_content/Configuration_Assignment_25",
+      "RelativePath": "Scripts/FinnHub.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\FinnHub.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\Tag_Helpers_Assignment_31\\Configuration_Assignment_25\\Configuration_Assignment_25\\wwwroot\\StyleSheet.css",
+      "SourceId": "Configuration_Assignment_25",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\Tag_Helpers_Assignment_31\\Configuration_Assignment_25\\Configuration_Assignment_25\\wwwroot\\",
+      "BasePath": "_content/Configuration_Assignment_25",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿@model CityWeather
+
+<!doctype html>
+<html>
+<head>
+    <title>Weather</title>
+    <meta charset="utf-8" />
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="page-content">
+        <h1 class="float-left">Weather</h1>
+
+        <br />
+        <br />
+        <br />
+        <div class="w-100 margin-top-200" align="center">
+            <table class="w-30 margin-top" >
+                <tbody>
+                    <tr class="w-100 float-left">
+                        <td class="box w-30">
+                            <table class="w-100">
+                                <tr>
+                                    <td class="w-50 float-left padding-left">
+                                        <div>
+                                            <h2>@Model.CityName</h2>
+                                            <h4 class="text-grey">@Model.DateAndTime.ToString("dd MMM yyyy")</h4>
+                                            <h4 class="text-grey">@Model.DateAndTime.ToString("hh:mm tt")</h4>
+                                        </div>
+                                    </td>
+                                    <td class="w-50 float-left padding-left border-left">
+                                        <div>
+                                            <h1>@Model.TemperatureFahrenheit <sup class="text-grey">°F</sup></h1>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+            <a href="/">Back to Weather Home Page</a>
+        </div>
+    </div>
+
+</body>
+</html>

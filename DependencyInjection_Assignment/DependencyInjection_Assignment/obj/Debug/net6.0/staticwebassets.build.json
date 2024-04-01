@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "K6+OL+kKC4l64T4Ej7WhRNqsC9Jmz2Iyd4myVNAS4tI=",
+  "Source": "DependencyInjection_Assignment",
+  "BasePath": "_content/DependencyInjection_Assignment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DependencyInjection_Assignment\\wwwroot",
+      "Source": "DependencyInjection_Assignment",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\DependencyInjection_Assignment\\DependencyInjection_Assignment\\wwwroot\\",
+      "BasePath": "_content/DependencyInjection_Assignment",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\DependencyInjection_Assignment\\DependencyInjection_Assignment\\wwwroot\\StyleSheet.css",
+      "SourceId": "DependencyInjection_Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\DependencyInjection_Assignment\\DependencyInjection_Assignment\\wwwroot\\",
+      "BasePath": "_content/DependencyInjection_Assignment",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

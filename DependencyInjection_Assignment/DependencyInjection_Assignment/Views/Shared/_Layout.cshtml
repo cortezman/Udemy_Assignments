@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="w-100">
+            <div class="w-100">
+                <h1>@ViewBag.Title</h1>
+            </div>
+            <div class="margin-top-200 flex padding-left-45">
+                @RenderBody()
+            </div>
+            <div class="w-100 text-center">
+                @if (ViewBag.Title == "City Weather")
+                {
+                    <h4>
+                        <a href="/">Back to Weather Home Page</a>
+                    </h4>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

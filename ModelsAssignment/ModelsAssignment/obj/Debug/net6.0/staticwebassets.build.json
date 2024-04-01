@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "eqQ0lQRW/nFPXjyAp9+otavmVIV/djfH40nJKVxzBv4=",
+  "Source": "ModelsAssignment",
+  "BasePath": "_content/ModelsAssignment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ModelsAssignment\\wwwroot",
+      "Source": "ModelsAssignment",
+      "ContentRoot": "D:\\UDEMY\\Asp.Net Core 7\\ModelsAssignment\\ModelsAssignment\\wwwroot\\",
+      "BasePath": "_content/ModelsAssignment",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

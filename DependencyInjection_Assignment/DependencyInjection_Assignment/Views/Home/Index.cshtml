@@ -1,0 +1,36 @@
+﻿@model IEnumerable<CityWeather>
+@{
+    ViewBag.Title = "Weather";
+    string colorClass = string.Empty;
+}
+
+@foreach (CityWeather cityWeather in Model)
+{
+    @if (cityWeather.TemperatureFahrenheit < 44)
+        colorClass = "blue-back";
+    else if (cityWeather.TemperatureFahrenheit >= 44 && cityWeather.TemperatureFahrenheit <= 74)
+        colorClass = "yellow-back";
+    else
+        colorClass = "orange-back";
+
+    <div class="box w-30 @colorClass padding-left">
+        <div class="flex-borderless">
+            <div class="w-50">
+                <h2>@cityWeather.CityName</h2>
+                <h4 class="text-dark-grey">@cityWeather.DateAndTime.ToString("hh:mm tt")</h4>
+                <h4>
+                    <a href="/weather/@cityWeather.CityUniqueCode">Details</a>
+                </h4>
+            </div>
+            <div class="border-left w-50">
+                <h1 class="margin-left">@cityWeather.TemperatureFahrenheit <sup class="text-grey">°F</sup></h1>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "City Weather";
+}
+
+    <div class="box w-30 padding-left margin-auto">
+        <div class="flex-borderless">
+            <div class="w-50">
+                <h2>@Model.CityName</h2>
+                <h4 class="text-dark-grey">@Model.DateAndTime.ToString("hh:mm tt")</h4>                
+            </div>
+            <div class="border-left w-50">
+                <h1 class="margin-left">@Model.TemperatureFahrenheit <sup class="text-grey">°F</sup></h1>
+            </div>
+        </div>
+    </div>
+

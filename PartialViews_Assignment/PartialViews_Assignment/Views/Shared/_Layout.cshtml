@@ -1,0 +1,33 @@
+﻿@using PartialViews_Assignment.Models
+
+
+<!doctype html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-brand">
+                <h1>@ViewBag.Title</h1>
+            </div>            
+        </div>
+        <div class="page-content">
+            <div class="margin-top-200">
+                <table class="w-100">
+                    <tbody>
+                        <tr class="w-100 float-left">
+                            @RenderBody()
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

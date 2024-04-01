@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "vk9Q+HK+CwLQPD2wOjgOeJap1hcQZDUzEYLbFmbeLKI=",
+  "Source": "RazorViews_Assignment",
+  "BasePath": "_content/RazorViews_Assignment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorViews_Assignment\\wwwroot",
+      "Source": "RazorViews_Assignment",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\RazorViews_Assignment\\RazorViews_Assignment\\wwwroot\\",
+      "BasePath": "_content/RazorViews_Assignment",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\RazorViews_Assignment\\RazorViews_Assignment\\wwwroot\\StyleSheet.css",
+      "SourceId": "RazorViews_Assignment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\RazorViews_Assignment\\RazorViews_Assignment\\wwwroot\\",
+      "BasePath": "_content/RazorViews_Assignment",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

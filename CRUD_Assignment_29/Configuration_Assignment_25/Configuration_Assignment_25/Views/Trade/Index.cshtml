@@ -1,0 +1,62 @@
+﻿@model StockTrade
+@{
+    ViewBag.Title = "FinnHub.io";
+}
+
+<form method="post">
+    
+        <input type="hidden" name="FinnHubToken" id="FinnHubToken" value="@ViewBag.FinnHubToken" />
+        <input type="hidden" name="StockSymbol" id="StockSymbol" value="@Model.StockSymbol" />
+        <input type="hidden" name="StockName" id="StockName" value="@Model.StockName" />
+        <input type="hidden" name="Price" id="price" value="@Model.Price" />
+
+        <div class="box trading-panel">
+            <div class="flex trading-panel-flex">
+                <div id="stock-price-panel">
+                    <div class="stock">
+                        <h1 class="stock-title">@Model.StockName (@Model.StockSymbol)</h1>
+                        <h2 class="stock-price"><small class="text-grey">$</small> <span class="stockPrice">@Model.Price.ToString("N")</span></h2>
+                    </div>
+                </div>
+
+                <div id="new-order-panel" class="border-left">
+
+                    <div class="flex flex-direction-vertical">
+                        <h3 class="text-grey mb">New Order</h3>
+
+                        <label for="Quantity" class="mt">Quantity:</label>
+                        <div class="w-25">
+                            <input type="number" name="Quantity" id="Quantity" value="@Model.Quantity" min="1" max="100000" placeholder="Quantity" required="required" class="form-input mb" autofocus="autofocus" />
+                        </div>
+                    </div>
+
+                    <div class="button-panel">
+
+                        <button type="submit" formaction="~/Trade/SellOrder" class="button button-red-back trading-button sell-button">
+                            <i class="fa-solid fa-arrow-down"></i>
+                            <span>Sell</span>
+                        </button>
+
+                        <button type="submit" formaction="~/Trade/BuyOrder" class="button button-green-back trading-button buy-button">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            <span>Buy</span>
+                        </button>
+
+                        @if (ViewBag.Errors != null)
+                        {
+                            <div class="text-red mt">
+                                <ul>
+                                    @foreach (string error in ViewBag.Errors)
+                                    {
+                                        <li class="ml">@error</li>
+                                    }
+                                </ul>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>      
+        </div>
+</form>
+
+<scripts src="~/Scripts/FinnHub.js"></scripts>

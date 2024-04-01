@@ -1,0 +1,24 @@
+﻿@model StockTrade
+@{
+    ViewBag.Title = "FinnHub.io";
+}
+
+<form method="post">
+    <input type="hidden" id="StockSymbol" value="@Model.StockSymbol" />
+    <input type="hidden" id="FinnHubToken" value="@ViewBag.FinnHubToken" />
+
+    <div class="box trading-panel">
+        <div class="flex trading-panel-flex">
+            <div id="stock-price-panel">
+                <div class="stock">
+                    <h1 class="stock-title">@Model.StockName (@Model.StockSymbol)</h1>
+                    <h2 class="stock-price"><small class="text-grey">$</small> <span class="stockPrice">@Model.Price.ToString("N")</span></h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+<scripts src="~/Scripts/FinnHub.js">
+</scripts

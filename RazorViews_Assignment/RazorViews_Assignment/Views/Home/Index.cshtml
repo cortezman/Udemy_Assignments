@@ -1,0 +1,60 @@
+﻿@model IEnumerable<CityWeather>
+@{
+    string colorClass = string.Empty;
+}
+
+<!doctype html>
+<html>
+<head>
+    <title>Weather</title>
+    <meta charset="utf-8" />
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="page-content">
+        <h1 class="float-left">Weather</h1>
+
+        <br />
+        <br />
+        <br />
+        <div class="w-100 margin-top-200 padding-left-45" align="center">
+            <table class="w-100">
+                <tbody>
+                    <tr class="w-100 float-left">
+                        @foreach (CityWeather cityWeather in ViewBag.city_weather)
+                        {
+                            @if (cityWeather.TemperatureFahrenheit < 44)
+                                colorClass = "blue-back";
+                            else if (cityWeather.TemperatureFahrenheit >= 44 && cityWeather.TemperatureFahrenheit <= 74)
+                                colorClass = "yellow-back";
+                            else
+                                colorClass = "orange-back";
+
+                            <td class="box @colorClass w-30 padding-left">
+                                <table class="w-100">
+                                    <tr>
+                                        <td class="w-50 float-left padding-left">
+                                            <h2>@cityWeather.CityName</h2>
+                                            <h4 class="text-dark-grey">@cityWeather.DateAndTime.ToString("hh:mm tt")</h4>
+                                            <h4>
+                                                <a href="/weather/@cityWeather.CityUniqueCode">Details</a>
+                                            </h4>
+                                        </td>
+                                        <td class="w-50 float-left padding-left border-left">
+                                            <h1>@cityWeather.TemperatureFahrenheit <sup class="text-grey">°F</sup></h1>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        }
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿
+@model CityWeather
+@{
+    string colorClass = string.Empty;
+}
+
+    @if (Model.TemperatureFahrenheit < 44)
+        colorClass = "blue-back";
+    else if (Model.TemperatureFahrenheit >= 44 && Model.TemperatureFahrenheit <= 74)
+        colorClass = "yellow-back";
+    else
+        colorClass = "orange-back";
+
+
+
+    <td class="box @colorClass w-30 padding-left">
+        <table class="w-100">
+            <tr>
+                <td class="w-50 float-left padding-left">
+                    <h2>@Model.CityName</h2>
+                <h4 class="text-dark-grey">@Model.DateAndTime.ToString("hh:mm tt")</h4>
+                    <h4>
+                        <a href="/weather/@Model.CityUniqueCode">Details</a>
+                    </h4>
+                </td>
+                <td class="w-50 float-left padding-left border-left">
+                    <h1>@Model.TemperatureFahrenheit <sup class="text-grey">°F</sup></h1>
+                </td>
+            </tr>
+        </table>
+    </td>
+}

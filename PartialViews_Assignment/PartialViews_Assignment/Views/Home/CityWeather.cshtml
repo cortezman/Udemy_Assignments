@@ -1,0 +1,33 @@
+﻿@model CityWeather
+@{
+    ViewBag.Title = "City Weather";
+}
+
+
+            <table class="w-30 margin-top" >
+                <tbody>
+                    <tr class="w-100 float-left">
+                        <td class="box w-30">
+                            <table class="w-100">
+                                <tr>
+                                    <td class="w-50 float-left padding-left">
+                                        <div>
+                                            <h2>@Model.CityName</h2>
+                                            <h4 class="text-grey">@Model.DateAndTime.ToString("dd MMM yyyy")</h4>
+                                            <h4 class="text-grey">@Model.DateAndTime.ToString("hh:mm tt")</h4>
+                                        </div>
+                                    </td>
+                                    <td class="w-50 float-left padding-left border-left">
+                                        <div>
+                                            <h1>@Model.TemperatureFahrenheit <sup class="text-grey">°F</sup></h1>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+            <a href="/">Back to Weather Home Page</a>

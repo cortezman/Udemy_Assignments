@@ -1,0 +1,61 @@
+﻿@model Orders
+
+@{
+    ViewBag.Title = "Orders";
+}
+
+
+<div class="flex">
+    <div class="flex-1">
+        <div class="text-grey ml">
+            <span>Stocks</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span>Orders</span>
+        </div>
+    </div>
+</div>
+
+<div class="flex orders-list">
+    <div id="buy-orders-list">
+        <div class="box">
+            <h3 class="text-grey ml">Buy Orders</h3>
+            @foreach (BuyOrderResponse buyOrderRespose in Model.BuyOrders)
+            {
+                <div class="border-bottom p">
+                    <h4>@buyOrderRespose.StockName (@buyOrderRespose.StockSymbol)</h4>
+                    <h5 class="mb">@buyOrderRespose.Quantity <span>shares at </span> $@buyOrderRespose.Price.ToString("N")</h5>
+                    <h5 class="mb"><span class="text-grey">Trade Amount: </span> $@buyOrderRespose.TradeAmount.ToString("N")</h5>
+                    <div class="text-grey">@buyOrderRespose.DateAndTimeOfOrder.ToString("dd MMMM yyyy hh:mm:ss tt")</div>
+                </div>
+            }
+
+            @if(Model.BuyOrders.Count == 0)
+            {
+                <div class="mt text-blue">
+                    No Orders
+                </div>
+            }
+        </div>
+    </div>
+    <div id="sell-orders-list">
+        <div class="box">
+            <h3 class="text-grey ml">Sell Orders</h3>
+            @foreach (SellOrderResponse sellOrderRespose in Model.SellOrders)
+            {
+                <div class="border-bottom p">
+                    <h4>@sellOrderRespose.StockName (@sellOrderRespose.StockSymbol)</h4>
+                    <h5 class="mb">@sellOrderRespose.Quantity <span>shares at </span> $@sellOrderRespose.Price.ToString("N")</h5>
+                    <h5 class="mb"><span class="text-grey">Trade Amount: </span> $@sellOrderRespose.TradeAmount.ToString("N")</h5>
+                    <div class="text-grey">@sellOrderRespose.DateAndTimeOfOrder.ToString("dd MMMM yyyy hh:mm:ss tt")</div>
+                </div>
+            }
+
+            @if (Model.SellOrders.Count == 0)
+            {
+                <div class="mt text-blue">
+                    No Orders
+                </div>
+            }
+        </div>
+    </div>
+</div>
