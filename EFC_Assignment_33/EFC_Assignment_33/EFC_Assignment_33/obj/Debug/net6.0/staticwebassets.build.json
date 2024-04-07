@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "x9ymvS8MQwMreajAeQvbQgt9DdQIOzZY6g3AyH3yTz4=",
+  "Source": "EFC_Assignment_33",
+  "BasePath": "_content/EFC_Assignment_33",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EFC_Assignment_33\\wwwroot",
+      "Source": "EFC_Assignment_33",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\EFC_Assignment_33\\EFC_Assignment_33\\EFC_Assignment_33\\wwwroot\\",
+      "BasePath": "_content/EFC_Assignment_33",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\EFC_Assignment_33\\EFC_Assignment_33\\EFC_Assignment_33\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "EFC_Assignment_33",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\EFC_Assignment_33\\EFC_Assignment_33\\EFC_Assignment_33\\wwwroot\\",
+      "BasePath": "_content/EFC_Assignment_33",
+      "RelativePath": "Rotativa/wkhtmltopdf.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\EFC_Assignment_33\\EFC_Assignment_33\\EFC_Assignment_33\\wwwroot\\Scripts\\FinnHub.js",
+      "SourceId": "EFC_Assignment_33",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\EFC_Assignment_33\\EFC_Assignment_33\\EFC_Assignment_33\\wwwroot\\",
+      "BasePath": "_content/EFC_Assignment_33",
+      "RelativePath": "Scripts/FinnHub.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\FinnHub.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\EFC_Assignment_33\\EFC_Assignment_33\\EFC_Assignment_33\\wwwroot\\StyleSheet.css",
+      "SourceId": "EFC_Assignment_33",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\UDEMY\\Asp.Net Core 7\\EFC_Assignment_33\\EFC_Assignment_33\\EFC_Assignment_33\\wwwroot\\",
+      "BasePath": "_content/EFC_Assignment_33",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
